@@ -3,9 +3,8 @@ export const SALON = {
   phoneDisplay: "01784 278542",
   phoneHref: "tel:01784278542",
   address: "4 Church Rd, Ashford TW15 2UT",
-  instagram: "https://www.instagram.com", // You can update this if they have an active one
   facebook: "https://www.facebook.com/classicbarbersashford/?locale=en_GB",
-  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.204526683838!2d-0.46756029999999995!3d51.4346723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673af27064059%3A0x46c1481267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1710000000000!5m2!1sen!2suk",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2628468755086!2d-0.46794652338302213!3d51.43467561536647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673af27064059%3A0xc4c14d1267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1719050000000!5m2!1sen!2suk",
   mapsLink: "https://maps.google.com/?q=Classic+Barbers+Ashford+4+Church+Rd+Ashford+TW15+2UT",
 } as const
 
@@ -33,9 +32,9 @@ export const SERVICE_CATEGORIES: ServiceCategory[] = [
     label: "Barbering & Styling",
     blurb: "Sharp cuts and classic styling tailored exactly to your preferences.",
     services: [
-      { name: "Men's Haircut", duration: "30 mins", price: "£18" }, // Standard placeholder prices for the layout, adjust if needed!
+      { name: "Men's Haircut", duration: "30 mins", price: "£18" },
       { name: "Skin Fade", duration: "45 mins", price: "£22" },
-      { name: "Scissor Cut (Sensitive to Clippers)", duration: "30 mins", price: "£20" },
+      { name: "Scissor Cut", duration: "30 mins", price: "£20" },
     ],
   },
   {
