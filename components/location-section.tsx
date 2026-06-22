@@ -14,8 +14,8 @@ export function LocationSection() {
             Where to Find Us
           </h2>
           <p className="mt-3 text-muted-foreground text-pretty">
-            Right on the high street in Ashford — pop in for a walk-in or call
-            ahead to book.
+            Right on Church Road in Ashford — pop in for a walk-in or call
+            ahead to check availability.
           </p>
         </Reveal>
 
@@ -31,7 +31,7 @@ export function LocationSection() {
                   <h3 className="font-serif text-lg font-semibold">Our Address</h3>
                   <p className="mt-1 text-muted-foreground">{SALON.address}</p>
                   <a
-                    href={SALON.mapsLink}
+                    href="https://maps.google.com/?q=Classic+Barbers+Ashford+4+Church+Rd+Ashford+TW15+2UT"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 inline-block text-sm font-medium text-primary underline-offset-4 hover:underline"
@@ -58,7 +58,7 @@ export function LocationSection() {
                 </li>
                 <li className="flex items-start gap-2.5">
                   <MapPin className="mt-0.5 size-4 shrink-0 text-primary/70" aria-hidden="true" />
-                  Street and nearby car parking available, just steps from the salon.
+                  Street and nearby car parking available, just steps from the barbershop.
                 </li>
               </ul>
             </div>
@@ -81,18 +81,18 @@ export function LocationSection() {
                 className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground transition-opacity duration-300 hover:opacity-90"
               >
                 <Phone className="size-4" aria-hidden="true" />
-                Call to Book — {SALON.phoneDisplay}
+                Call to Check Availability — {SALON.phoneDisplay}
               </a>
             </div>
           </Reveal>
 
-          {/* Map */}
+          {/* Map Section - Hardcoded direct URL layout to guarantee loading */}
           <Reveal delay={100} className="min-h-80">
             <div className="h-full overflow-hidden rounded-2xl border border-border bg-card shadow-sm">
               <iframe
-                title={`Map showing ${SALON.name} at ${SALON.address}`}
-                src={SALON.mapsEmbed}
-                className="h-full min-h-80 w-full"
+                title="Map showing Classic Barbers Ashford location layout"
+                src="https://maps.google.com/maps?q=Classic%20Barbers%20Ashford%204%20Church%20Rd%20Ashford%20TW15%202UT&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                className="h-full min-h-[450px] w-full"
                 style={{ border: 0 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
