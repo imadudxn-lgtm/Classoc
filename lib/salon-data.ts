@@ -4,8 +4,8 @@ export const SALON = {
   phoneHref: "tel:01784278542",
   address: "4 Church Rd, Ashford TW15 2UT",
   facebook: "https://www.facebook.com/classicbarbersashford/?locale=en_GB",
-  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2628468755086!2d-0.46794652338302213!3d51.43467561536647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673af27064059%3A0xc4c14d1267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1719050000000!5m2!1sen!2suk",
-  mapsLink: "https://maps.google.com/?q=Classic+Barbers+Ashford+4+Church+Rd+Ashford+TW15+2UT",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2949704259646!2d-0.434685023381488!3d51.4527443144131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673af27064059%3A0xc5c14d3267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1719060000000!5m2!1sen!2suk",
+  mapsLink: "https://maps.app.goo.gl/9mSAsCAsbPhE6Gsc8",
 } as const
 
 export const HOURS = [
