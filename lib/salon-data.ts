@@ -1,18 +1,17 @@
 export const SALON = {
-  name: "Head Partners",
-  phoneDisplay: "01784 255267",
-  phoneHref: "tel:01784255267",
-  address: "45 Church Rd, Ashford TW15 2TY",
-  instagram: "https://www.instagram.com/headpartners/",
-  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2736733221434!2d-0.43577712338148383!3d51.43478957179611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673fece886b63%3A0x33280f6879668ef4!2s45%20Church%20Rd%2C%20Ashford%20TW15%202TY!5e0!3m2!1sen!2suk!4v1719047200000!5m2!1sen!2suk",
-  mapsLink: "https://maps.app.goo.gl/ChIJY2uIzv5zdkgR9I5meWgPKDM",
+  name: "Classic Barbers Ashford",
+  phoneDisplay: "01784 278542",
+  phoneHref: "tel:01784278542",
+  address: "4 Church Rd, Ashford TW15 2UT",
+  instagram: "https://www.instagram.com", // You can update this if they have an active one
+  facebook: "https://www.facebook.com/classicbarbersashford/?locale=en_GB",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.204526683838!2d-0.46756029999999995!3d51.4346723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487673af27064059%3A0x46c1481267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1710000000000!5m2!1sen!2suk",
+  mapsLink: "https://maps.google.com/?q=Classic+Barbers+Ashford+4+Church+Rd+Ashford+TW15+2UT",
 } as const
 
 export const HOURS = [
-  { day: "Tuesday – Wednesday", time: "8:30 AM – 4:30 PM" },
-  { day: "Thursday", time: "8:30 AM – 7:00 PM" },
-  { day: "Friday – Saturday", time: "8:30 AM – 4:30 PM" },
-  { day: "Sunday – Monday", time: "Closed" },
+  { day: "Monday – Saturday", time: "9:00 AM – 7:00 PM" },
+  { day: "Sunday", time: "9:30 AM – 5:00 PM" },
 ] as const
 
 export type Service = {
@@ -30,64 +29,62 @@ export type ServiceCategory = {
 
 export const SERVICE_CATEGORIES: ServiceCategory[] = [
   {
-    id: "styling",
-    label: "Cutting & Styling",
-    blurb: "Expert cuts and professional styling tailored entirely to your look.",
+    id: "barbering",
+    label: "Barbering & Styling",
+    blurb: "Sharp cuts and classic styling tailored exactly to your preferences.",
     services: [
-      { name: "Ladies' Cut & Blow Dry", duration: "45 mins", price: "£45" },
-      { name: "Blow Dry & Style", duration: "30 mins", price: "£30" },
-      { name: "Wet Haircut", duration: "30 mins", price: "£35" },
-      { name: "Gentlemen's Haircut", duration: "25 mins", price: "£25" },
-      { name: "Children's Haircut", duration: "20 mins", price: "£15" },
+      { name: "Men's Haircut", duration: "30 mins", price: "£18" }, // Standard placeholder prices for the layout, adjust if needed!
+      { name: "Skin Fade", duration: "45 mins", price: "£22" },
+      { name: "Scissor Cut (Sensitive to Clippers)", duration: "30 mins", price: "£20" },
     ],
   },
   {
-    id: "coloring",
-    label: "Hair Colouring",
-    blurb: "Vibrant all-over shades and root maintenance using premium formulas.",
+    id: "shaves-trims",
+    label: "Beard & Shaves",
+    blurb: "Traditional hot towel shaves and clean line outlines.",
     services: [
-      { name: "Full Head Permanent Colour", duration: "90 mins", price: "£75" },
-      { name: "Root Colour Touch-Up", duration: "60 mins", price: "£45" },
-      { name: "Glossing & Toner Treatment", duration: "45 mins", price: "£35" },
-      { name: "Regrowth Tint", duration: "60 mins", price: "£50" },
-    ],
-  },
-  {
-    id: "highlights",
-    label: "Highlights & Technical",
-    blurb: "Dimensional lightening, creative balayage, and traditional perms.",
-    services: [
-      { name: "Full Head Highlights", duration: "120 mins", price: "£110" },
-      { name: "Half Head Highlights", duration: "90 mins", price: "£85" },
-      { name: "T-Section Highlights", duration: "75 mins", price: "£60" },
-      { name: "Balayage Style", duration: "150 mins", price: "From £120" },
-      { name: "Traditional Hair Perm", duration: "90 mins", price: "From £65" },
+      { name: "Beard Trim", duration: "20 mins", price: "£10" },
+      { name: "Hot Towel Shave", duration: "35 mins", price: "£20" },
+      { name: "Head Shave", duration: "25 mins", price: "£15" },
     ],
   },
 ]
 
 export const GALLERY = [
-  { src: "/gallery-1.jpg", alt: "Salon interior layout" },
-  { src: "/gallery-2.jpg", alt: "Professional styling session" },
-  { src: "/gallery-3.jpg", alt: "Finished style result" },
+  {
+    src: "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&auto=format&fit=crop&q=80",
+    alt: "Classic leather barber chair in front of a mirror",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&auto=format&fit=crop&q=80",
+    alt: "Barber styling hair with precision clippers",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&auto=format&fit=crop&q=80",
+    alt: "Barber tools, scissors, and combs laid out on a table",
+  },
 ]
 
 export const REVIEWS = [
   {
-    name: "Sarah M.",
-    text: "Fantastic experience at Head Partners. Professional, friendly, and they knew exactly what to do with my highlights. I love my hair so much!",
+    name: "Bruno Pereira",
+    text: "I was lucky enough to catch Arde at The Classic Barbers just as he was closing, and he still kindly accepted me for a last-minute haircut and beard trim. The service was top-notch full attention to detail, great conversation, and a perfect cut.",
   },
   {
-    name: "James L.",
-    text: "Had a great restyle haircut here. The team takes excellent care, the prices are very reasonable, and the final look was crisp and perfectly neat.",
+    name: "Darren Tyler",
+    text: "Hands down the best barbershop in town! I’ve been to a lot of barbers, but this place stands out for all the right reasons. The atmosphere is welcoming, clean, and professional. The barbers really pay attention.",
   },
   {
-    name: "Victoria G.",
-    text: "The stylist was incredibly precise and did exactly what I requested for my cut and blow-dry. Brilliant customer care and pristine service!",
+    name: "Ryan Fernandes",
+    text: "I’m really very satisfied with my experience at Classic Barbers. The staff are friendly and welcoming, especially the owner, who is very accommodating and professional. He gave great suggestions for a haircut that suited me well.",
   },
   {
-    name: "Emma D.",
-    text: "I tried Head Partners for a root touch-up and tint, and I'm so pleased with the vibrant results. Highly recommend this local gem!",
+    name: "Hajar Salehi",
+    text: "First time being at classic Barber before my son getting a haircut I let them know my son is very sensitive with the clipper. They cut his hair with scissors and my boy loves the haircut, he’s gassed up to get a haircut here.",
+  },
+  {
+    name: "Peerzada Ovais",
+    text: "Best haircut and beard trim I’ve had in the UK. Great experience at Classic Barbers Ashford. Big thanks to Ardie - very skilled, professional, and paid great attention to detail. Left feeling fresh and confident.",
   },
 ]
 
