@@ -5,17 +5,17 @@ const HIGHLIGHTS = [
   {
     icon: ShieldCheck,
     title: "Spotlessly clean",
-    text: "A bright, hygienic styling environment with clean, sanitized tools for every single client.",
+    text: "A sharp, hygienic shop layout with fresh, fully sanitized tools for every single client.",
   },
   {
     icon: Heart,
     title: "Friendly experts",
-    text: "A warm, experienced team that listens carefully and treats your hair with expert care.",
+    text: "A welcoming, highly experienced team that listens carefully and takes pride in every cut.",
   },
   {
     icon: Sparkles,
-    title: "Premium products",
-    text: "Quality professional hair colors, styling products, and formulas that leave hair healthy and vibrant.",
+    title: "Premium grooming",
+    text: "Top-tier grooming finishes, traditional shaving products, and hot towel styling treatments.",
   },
 ]
 
@@ -26,8 +26,8 @@ export function AboutSection() {
         <Reveal>
           <div className="overflow-hidden rounded-3xl shadow-xl bg-muted h-[560px] relative">
             <img
-              src="/gallery-2.jpg"
-              alt="Inside Head Partners — a professional styling session focusing on premium color application and client care"
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&auto=format&fit=crop&q=80"
+              alt="Inside Classic Barbers Ashford — a pristine, premium local barber shop setting ready for grooming services"
               className="h-full w-full object-cover"
               loading="eager"
             />
@@ -39,17 +39,15 @@ export function AboutSection() {
             About Us
           </p>
           <h2 className="mt-3 font-serif text-3xl font-bold leading-tight tracking-tight text-balance sm:text-4xl lg:text-5xl">
-            Your local hair salon in the heart of Ashford
+            Your local barbershop in the heart of Ashford
           </h2>
           <p className="mt-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            At Head Partners we&apos;ve built a calm, welcoming space where you can
-            relax and leave feeling your absolute best. Whether you&apos;re looking for a quick trim, 
-            a dramatic restyle, or creative technical coloring, our team takes the time to get
-            every single detail just right for your unique style.
+            At Classic Barbers Ashford, we&apos;ve built a clean, comfortable, and friendly space where you can
+            unwind and walk out looking your absolute best. Whether you need a standard trim, a meticulous skin fade, 
+            or a classic hot towel beard alignment, our barbers take their time to ensure absolute precision.
           </p>
           <p className="mt-4 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Walk-ins are always welcome, and we&apos;re proud of the loyal community of
-            clients who keep trusting us with their look.
+            Walk-ins are always highly welcome, and we take pride in serving a loyal local community of clients who trust us completely with their look week after week.
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
