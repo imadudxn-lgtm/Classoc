@@ -4,8 +4,8 @@ export const SALON = {
   phoneHref: "tel:01784278542",
   address: "4 Church Rd, Ashford TW15 2UT",
   facebook: "https://www.facebook.com/classicbarbersashford/?locale=en_GB",
-  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.2736284697666!2d-0.4328328233830206!3d51.43481231641019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487679af27064059%3A0xc1c14d3267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1719050000000!5m2!1sen!2suk",
-  mapsLink: "https://www.google.com/maps/place/Classic+Barbers+Ashford/@51.4348123,-0.4328328,17z/data=!3m1!4b1!4m6!3m5!1s0x487679af27064059:0xc1c14d3267c8753e!8m2!3d51.4348123!4d-0.4302579!16s%2Fg%2F11cs03z6_k?entry=ttu",
+  mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.65363402444!2d-0.46794652233682973!3d51.43467557179471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487679af27064059%3A0xc5c14d3267c8753e!2sClassic%20Barbers%20Ashford!5e0!3m2!1sen!2suk!4v1718820000000!5m2!1sen!2suk",
+  mapsLink: "https://www.google.com/maps/place/Classic+Barbers+Ashford/@51.4346723,-0.4653716,17z/data=!3m1!4b1!4m6!3m5!1s0x487679af27064059:0xc5c14d3267c8753e!8m2!3d51.4346723!4d-0.4653716!16s%2Fg%2F11wdbttx3r?entry=ttu",
 } as const
 
 export const HOURS = [
